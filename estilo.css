@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+    font-family: "MS Sans-serif", sans-serif, Arial;
+}
+
+.container {
+    background-color: #fffcec;
+    border: 1px solid #000;
+    width: 60%;
+    overflow: hidden;
+}
+
+.container header {
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #a4c6ec, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a4c6ec, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 30px;
+}
+
+.container header p {
+    color: #fff;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d1d0cc;
+    border-top: 1.5px solid #fff;
+    border-left: 1.5px solid #fff;
+    border-right: 1.5px solid #000;
+    border-bottom: 1.5px solid #000;
+    height: 95%;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #dfded9;
+    border-top: 1.5px solid #000;
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+}
+
+.container .content {
+    background-color: #d4d0c7;
+    padding: 30px;
+}
+
+.container .content .gif {
+    width: 90%;
+}
+
+form .form-control {
+    border-radius: 0;
+    border-top: 1.5px solid #000;
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    height: 25px;
+}
+
+form .form-control:focus{
+    border-top: 1.5px solid #000;
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    box-shadow: none;
+}
+
+.container .content .enviar {
+    font-family: "MS Sans-serif", sans-serif, Arial;
+    font-size: 16px;
+}

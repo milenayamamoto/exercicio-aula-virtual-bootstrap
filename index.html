@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exercício Aula Virtual - Bootstrap | Digital House</title>
+</head>
+<body>
+    <div class="container mt-5 p-1">
+        <header class="col-sm-12 p-1 d-flex justify-content-between">
+            <p><strong>Parabéns</strong></p>
+            <button class="d-flex align-self-center">X</button>
+        </header>
+        <div class="content row d-flex mx-auto justify-content-center">
+            <div class="col-sm-3 col-12 p-0 d-flex align-self-center justify-content-center">
+                <img src="img/computador.gif" class="gif" alt="Gif de um computador com ícones de diversos aplicativos em sua tela">
+            </div>
+            <div class="col-sm-9">
+                <h1><strong>Parabéns</strong></h1>
+                <p>
+                    Você é o nosso 9.999.999 visitante no site!<br>
+                    Preencha o formulário abaixo e você ganhará R$1.000.000 igual a Betina:
+                </p>
+                <form>
+                    <div class="form-group row">
+                        <label for="nome" class="col-sm-3 col-form-label"><strong>Nome:</strong></label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="nome">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="numero" class="col-sm-3 col-form-label"><strong>Nº cartão:</strong></label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="numero">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="senha" class="col-sm-3 col-form-label"><strong>Senha:</strong></label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="senha">
+                            <smal class="form-text text-muted">Seus dados serão armazenados com total segurança</small>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <button class="enviar">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
